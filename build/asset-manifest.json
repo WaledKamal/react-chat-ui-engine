@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-chat-ui-engine/static/css/main.ec14d1b7.css",
+    "main.js": "/react-chat-ui-engine/static/js/main.9abd7849.js",
+    "static/media/benzema.jpg": "/react-chat-ui-engine/static/media/benzema.443c4c8a75589d77a662.jpg",
+    "static/media/mane.jpg": "/react-chat-ui-engine/static/media/mane.284bcfa81700221111a4.jpg",
+    "static/media/deafult.png": "/react-chat-ui-engine/static/media/deafult.471e558be8e37aa12c39.png",
+    "static/media/koksal.jpg": "/react-chat-ui-engine/static/media/koksal.30248503806b86b8c218.jpg",
+    "static/media/search-icon.png": "/react-chat-ui-engine/static/media/search-icon.764bc1516bfb1ff41e4d.png",
+    "index.html": "/react-chat-ui-engine/index.html",
+    "main.ec14d1b7.css.map": "/react-chat-ui-engine/static/css/main.ec14d1b7.css.map",
+    "main.9abd7849.js.map": "/react-chat-ui-engine/static/js/main.9abd7849.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec14d1b7.css",
+    "static/js/main.9abd7849.js"
+  ]
+}

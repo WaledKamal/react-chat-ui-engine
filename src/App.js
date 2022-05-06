@@ -1,6 +1,4 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import { getMessages, pushMessage } from './firebase/User';
 import Engine from './Engine/Engine';
 
 
