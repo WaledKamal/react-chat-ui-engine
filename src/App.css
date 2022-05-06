@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #3b72fb;
+  --secondry-color: #79a2da;
+  --third-color: #f9f9f9;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.engine {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 9px 15px 215px -47px rgba(79, 70, 70, 1);
+  -webkit-box-shadow: 9px 15px 215px -47px rgba(79, 70, 70, 1);
+  -moz-box-shadow: 9px 15px 215px -47px rgba(79, 70, 70, 1);
+}
+
+aside {
+  padding: 20px;
+  background-color: var(--third-color);
+  border-radius: 5px;
+  min-width: 350px;
+}
+
+aside .user-info {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+aside .user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 0.5px var(--primary-color);
+  object-fit: contain;
+}
+
+.user-data {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.user-data .userName {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.last-msg {
+  color: rgb(108, 107, 107);
+  font-weight: 400;
+}
+
+.user-data .job-title {
+  color: rgb(108, 107, 107);
+}
+
+.sign-out-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s linear color;
+}
+
+.sign-out-btn i {
+  font-size: 25px;
+}
+
+.sign-out-btn:hover {
+  color: crimson;
+}
+
+.search-section {
+  background-color: #ebebebd5;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.search-section input {
+  padding-left: 25px;
+  background: url(./assets/search-icon.png) no-repeat left 2px;
+  background-size: 20px;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 100%;
+  color: #716d6d;
+  font-size: 20px;
+}
+
+.search-section input::placeholder {
+  color: #bbbbbb;
+}
+
+.search-section input::-webkit-search-cancel-button {
+  position: relative;
+  right: 20px;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-image: url(./assets/search-icon.png);
+}
+
+.session {
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s background-color;
+  padding: 10px;
+  width: 100%;
+}
+
+.session:hover {
+  background-color: rgb(245, 242, 242);
+}
+
+/*Conversation section*/
+
+.conversation {
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  border-bottom: solid 1px lightgray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conversation .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.conversation .user-info .userName {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.conversation .user-info img {
+  margin-right: 10px;
+}
+.conversation .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 0.5px var(--primary-color);
+  object-fit: contain;
+}
+
+.header-chat button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-left: 20px;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.header-chat button:hover {
+  color: crimson;
+}
+
+.conversation .status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: green;
+  margin-left: 5px;
+}
+
+.conversation .status-title {
+  margin-left: 5px;
+  color: grey;
+}
+
+.currentChat {
+  width: 100%;
+  padding: 20px;
+  background: white;
+}
+
+.message {
+  padding: 20px;
+  text-align: right;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.message-recived {
+  padding: 20px;
+  text-align: left;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: var(--third-color);
+}
+
+.send-btn {
+  background-color: transparent;
+  border: none;
+  transition: 0.12s linear color;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  color: crimson;
+}
+
+.send-section input {
+  padding-left: 25px;
+  background-size: 20px;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 100%;
+  color: #716d6d;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.send-section {
+  background-color: #ebebebd5;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  
+}
+
+.send-section input::placeholder {
+  color: #bbbbbb;
+}
+
+.send-section input::-webkit-search-cancel-button {
+  position: relative;
+  right: 20px;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-image: url(./assets/search-icon.png);
+}
+.light-dark-btn{
+  background-color: transparent;
+  border: none;
+  color: var(--primary-color);
+  font-size: 25px;
+}
